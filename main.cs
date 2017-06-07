@@ -10,10 +10,10 @@ string someName = "Santa"
         String myName = Console.ReadLine();
         if (MyName=="")
         {
-        Console.WriteLine("hello {0}", someName);
+        Console.WriteLine("hello, {0}", someName);
         
         }
-        Console.WriteLine("hello {0}", myName);
+        Console.WriteLine("hello, {0}", myName);
 
 
     
