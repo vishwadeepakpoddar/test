@@ -1,5 +1,7 @@
 using System;
-
+using GitDemo.Utility;
+namespace GitDemo
+{
 public static class MyClass
 {
     public static void Main(){
@@ -8,9 +10,9 @@ public static class MyClass
         Console.WriteLine("Hello World");
 string someName = "Santa"
         Console.WriteLine("Enter your first name.");
-        String myName = Console.ReadLine();
+        String myName = Utility.GetFirstName();//Console.ReadLine();
         Console.WriteLine("Enter your last name");
-        String lastName = Console.ReadLine();
+        String lastName = Utility.GetlastName();// Console.ReadLine();
         if (MyName=="")
         {
         Console.WriteLine("hello, {0}", someName);
@@ -32,4 +34,5 @@ string someName = "Santa"
     }
 
 
+}
 }
